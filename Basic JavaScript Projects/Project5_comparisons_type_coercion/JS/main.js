@@ -1,5 +1,9 @@
 document.write("32" +6);
 
+document.write(typeof "Frog");
+
+document.write(typeof 3);
+
 function my_Function() {
     document.getElementById("Test").innerHTML = 0/0;
 }
@@ -38,4 +42,12 @@ document.write(5 > 10 || 10 > 20);
 
 function not_Function() {
     document.getElementById("Not").innerHTML = !(5>10);
+}
+
+document.write(Bigger = (5>1)? "Left number is bigger":"Right number is bigger");
+
+function Ride_Function() {
+    var Height, Can_Ride;
+    Height = (Height<52) ? "You are too short":"You are tall enough";
+    document.getElementById("Ride").innerHTML = Can_Ride + " not tall enough to ride.";
 }
