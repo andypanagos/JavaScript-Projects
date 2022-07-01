@@ -31,6 +31,10 @@ var X = 5;
 X++;
 document.write(X);
 
+var Y = 5.25;
+Y--;
+document.write(Y);
+
 window.alert(Math.random() *100);
 
 
@@ -45,3 +49,5 @@ function my_Dictionary() {
     delete Animal.Sound;
     document.getElementById("Dictionary").innerHTML = Animal.Sound;
 }
+
+document.write(typeof "Word");
